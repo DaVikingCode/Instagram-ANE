@@ -1,0 +1,7 @@
+.project
+.settings
+*.ipa
+*.swf
+*.tmp
+*.apk
+bin/InstagramANE.app.dSYM/Contents/Info.plist

@@ -1,0 +1,30 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.5">
+	<id>com.davikingcode.nativeExtensions.Instagram</id>
+	<versionNumber>0.1</versionNumber>
+	<platforms>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libInstagramIosExtension.a</nativeLibrary>
+				<initializer>InstagramExtensionInitializer</initializer>
+				<finalizer>InstagramExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>InstagramAndroidExtension.jar</nativeLibrary>
+				<initializer>com.davikingcode.nativeExtensions.instagram.InstagramExtension</initializer>
+				<finalizer>com.davikingcode.nativeExtensions.instagram.InstagramExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>InstagramAndroidExtension.jar</nativeLibrary>
+				<initializer>com.davikingcode.nativeExtensions.instagram.InstagramExtension</initializer>
+				<finalizer>com.davikingcode.nativeExtensions.instagram.InstagramExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="default">
+			<applicationDeployment/>
+		</platform>
+	</platforms>
+</extension>
