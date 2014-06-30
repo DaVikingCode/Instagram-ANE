@@ -1,4 +1,13 @@
 Instagram-ANE
 =============
 
-Based on [Sharkhack](https://github.com/sharkhack) Instagram's ANE. We wanted to have a default implementation and iOS & Android into the same ANE.
+Based on [Sharkhack](https://github.com/sharkhack) Instagram's ANEs. We wanted to have a default implementation for iOS & Android into the same ANE.
+
+```actionscript3
+var instagram:Instagram = new Instagram();
+
+if (instagram.isInstalled())
+	instagram.share(new DaVikingCodeLogo().bitmapData, "my caption test");
+```
+
+On Android we use directly the bitmapData whereas on iOS we turn it into a ByteArray. You may use a third argument for the compressor. Default is `new JPEGEncoderOptions();`
