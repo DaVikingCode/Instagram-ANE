@@ -63,7 +63,7 @@
 		<delete dir="../temp/swc/content/" />
 	</target>
 
-	<target name="android-swc" description="Build ios swc library">
+	<target name="android-swc" description="Build android swc library">
 		<mkdir dir="../temp/swc/content/" />
 
 		<fileset dir="../actionscript" casesensitive="yes" id="classfiles.android">

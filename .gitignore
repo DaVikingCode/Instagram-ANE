@@ -3,5 +3,6 @@
 *.ipa
 *.swf
 *.tmp
+bin/tmp
 *.apk
 bin/InstagramANE.app.dSYM/Contents/Info.plist
