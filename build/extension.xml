@@ -1,6 +1,6 @@
 <extension xmlns="http://ns.adobe.com/air/extension/3.5">
 	<id>com.davikingcode.nativeExtensions.Instagram</id>
-	<versionNumber>0.1</versionNumber>
+	<versionNumber>0.2</versionNumber>
 	<platforms>
 		<platform name="iPhone-ARM">
 			<applicationDeployment>

@@ -53,7 +53,7 @@ package com.davikingcode.nativeExtensions.instagram {
 			tmp.copyChannel(bmp, bmp.rect, new Point(0,0), BitmapDataChannel.GREEN, BitmapDataChannel.GREEN);
 			tmp.copyChannel(bmp, bmp.rect, new Point(0,0), BitmapDataChannel.RED, BitmapDataChannel.BLUE);
 
-			extensionContext.call("shareToInstagram", tmp);
+			extensionContext.call("shareToInstagram", tmp, caption);
 		}
 	}
 }

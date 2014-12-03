@@ -28,7 +28,7 @@ public class SaveInstagramFunction implements FREFunction {
 				InstagramExtension.context.bm = Bitmap.createBitmap(srcWidth, srcHeight, Config.ARGB_8888);
 				InstagramExtension.context.bm.copyPixelsFromBuffer( InstagramExtension.context.inputValue.getBits() );
 				
-				InstagramExtension.context.shareImageInstagram();
+				InstagramExtension.context.shareImageInstagram(passedArgs[1].getAsString());
 			} else {
 				
 				InstagramExtension.context.cleardata();

@@ -56,7 +56,7 @@ public class InstagramExtensionContext extends FREContext
 		return installins;
 	}
 	
-	public void shareImageInstagram(){
+	public void shareImageInstagram(String caption){
 		
 		String isok = "no";
 		
@@ -88,6 +88,7 @@ public class InstagramExtensionContext extends FREContext
 			shareIntent = new Intent(android.content.Intent.ACTION_SEND);
 			shareIntent.setType("image/*");
 			shareIntent.putExtra(Intent.EXTRA_STREAM, Uri.parse("file://"+fl.getPath()));
+			shareIntent.putExtra(Intent.EXTRA_TEXT, caption);
 			shareIntent.setPackage("com.instagram.android");
 	
 			getActivity().startActivity(shareIntent);
