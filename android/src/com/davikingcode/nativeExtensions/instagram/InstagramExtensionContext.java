@@ -100,7 +100,7 @@ public class InstagramExtensionContext extends FREContext
 		this.inputValue = null;
 		this.bm = null;
 		
-		dispatchStatusEventAsync("ok", "status");
+		dispatchStatusEventAsync("OK", "status");
 		
 	}
 	

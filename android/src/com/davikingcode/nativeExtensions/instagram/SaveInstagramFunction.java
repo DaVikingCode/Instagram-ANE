@@ -37,13 +37,13 @@ public class SaveInstagramFunction implements FREFunction {
 		} catch (Exception e) {
 			e.printStackTrace();
 			InstagramExtension.context.cleardata();
-			InstagramExtension.context.dispatchStatusEventAsync("ok", "status");
+			InstagramExtension.context.dispatchStatusEventAsync("OK", "status");
 		}
 		catch (Error e){
 			
 			e.printStackTrace(); 
 			InstagramExtension.context.cleardata();
-			InstagramExtension.context.dispatchStatusEventAsync("ok", "status");
+			InstagramExtension.context.dispatchStatusEventAsync("OK", "status");
 		}
 		finally{
 			                       
