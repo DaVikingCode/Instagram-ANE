@@ -54,7 +54,7 @@ static InstagramIosExtension *sharedInstance = nil;
         UIViewController *rootViewController = [[[UIApplication sharedApplication] keyWindow] rootViewController];
         [InstagramQueries postImage:image withCaption:caption inView:rootViewController.view];
         
-        FREDispatchStatusEventAsync(InstagramCtx, (const uint8_t *)"INSTAGRAM", (const uint8_t *)"OK");
+        FREDispatchStatusEventAsync(InstagramCtx, (const uint8_t *)"OK", (const uint8_t *)"");
     }
     else{
         [self.notInstalledAlert show];

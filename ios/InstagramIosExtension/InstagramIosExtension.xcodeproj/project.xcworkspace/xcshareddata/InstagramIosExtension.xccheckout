@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>12B53EC9-0F2B-4FC1-ABDD-C69134D1D3EF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>InstagramIosExtension</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>28FA0B1E8826696EAECA43347A73979B500E25EF</key>
+		<string>https://github.com/DaVikingCode/Instagram-ANE.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/InstagramIosExtension/InstagramIosExtension.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>28FA0B1E8826696EAECA43347A73979B500E25EF</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DaVikingCode/Instagram-ANE.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>28FA0B1E8826696EAECA43347A73979B500E25EF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>28FA0B1E8826696EAECA43347A73979B500E25EF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Instagram-ANE</string>
+		</dict>
+	</array>
+</dict>
+</plist>
