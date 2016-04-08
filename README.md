@@ -15,4 +15,16 @@ On Android we use directly the bitmapData whereas on iOS we turn it into a ByteA
 Also on Android be sure to add this permission (the picture need to be saved on disk):
 `<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />`
 
+On iOS you must add in your **-app.xml*:
+```xml
+<iPhone>
+    <InfoAdditions><![CDATA[
+        <key>LSApplicationQueriesSchemes</key>
+        <array>
+            <string>instagram</string>
+        </array>
+    ]]></InfoAdditions>
+</iPhone>
+```
+
 *Note, since several months the pre-filled caption has been [removed from Instagram](http://developers.instagram.com/post/125972775561/removing-pre-filled-captions-from-mobile-sharing)*. If the user has an old version on its mobile, it will still work. Your image should be at least [640px by 640px square](https://www.instagram.com/developer/mobile-sharing/iphone-hooks/).
